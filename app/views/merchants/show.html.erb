@@ -1,0 +1,5 @@
+<h1><%= @facade.merchant.name %>'s Items</h1>
+
+<% @facade.merchant_items.each do |item| %>
+  <p><%= item.name %></p>
+<% end %>

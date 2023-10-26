@@ -1,0 +1,5 @@
+<h3>Merchants</h3>
+
+<% @facade.each do |merchant| %>
+  <%= link_to "#{merchant.name}", merchant_path(merchant.merchant_id) %></br>
+<% end %>
